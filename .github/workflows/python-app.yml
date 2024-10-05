@@ -36,5 +36,5 @@ jobs:
         AWS_REGION: 'us-west-2'
       run: |
         pip install awsebcli
-        eb init HelloWordPython --region us-west-2 --platform python
-        eb deploy HelloWordPython-env
+        eb init HelloWorldPython --region us-east-1 --platform python
+        eb deploy HelloWorldPython-env
