@@ -1,3 +1,6 @@
+def testinG():
+    return "Testing"
+
 def say_hello():
     return "Hello, World!"
 
